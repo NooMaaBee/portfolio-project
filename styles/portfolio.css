@@ -25,6 +25,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  font-weight: var(--default-font-family);
 }
 
 .hero {
@@ -83,6 +84,22 @@ p {
 .footer{
     background-color: linear-gradient(109.6deg, rgb(223, 234, 247) 11.2%, rgb(244, 248, 252) 91.1%);
     font-family: var(--default-font-family);
+}
+.social-links a{
+    color: #8dc6ff;
+    text-decoration: none;
+    margin: 10px 20px 10px;
+    font-size: 30px;
+     transition: 100ms ease-in-out;
+    transition-behavior: normal;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.social-links a:hover{
+   color: #272142;
+
 }
 
 @media (max-width: 960px) {
