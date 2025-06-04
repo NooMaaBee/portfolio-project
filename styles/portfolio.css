@@ -40,7 +40,7 @@ p {
 }
 .hero h2 {
   font-family: var(--default-font-family);
-  font-weight: light;
+  font-weight: 300;
   font-size: 24px;
   color: #272142;
 }
@@ -65,6 +65,19 @@ p {
 .project-description {
   text-align: left;
   padding: 120px 60px;
+}
+
+
+.overflow-hidden{
+    margin-left: 30px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.col.col.d-none.d-lg-block {
+  display: flex;
+  justify-content: center; 
+  padding-left: 20px;
 }
 
 @media (max-width: 960px) {
