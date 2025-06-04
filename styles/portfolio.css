@@ -1,6 +1,6 @@
 :root {
   --main-color: #f9f7fe;
-  --branding-color: blue;
+  --branding-color: #8dc6ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -28,7 +28,7 @@ p {
 }
 
 .hero {
-  background-color: var(--main-color);
+  background: linear-gradient(109.6deg, rgb(223, 234, 247) 11.2%, rgb(244, 248, 252) 91.1%);
   padding: 160px 20px;
 }
 
@@ -78,6 +78,10 @@ p {
   display: flex;
   justify-content: center; 
   padding-left: 20px;
+}
+
+.footer.card-header{
+    background-color: var(--main-color);
 }
 
 @media (max-width: 960px) {
