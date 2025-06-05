@@ -3,6 +3,7 @@
   --branding-color: #8dc6ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow:rgba (0, 0, 0, 0.2) 0px 4px 10px;
 }
 
 body {
@@ -46,6 +47,28 @@ p {
   color: #272142;
 }
 
+.about-section h1{
+font-size: 64px;
+font-family: var(--heading-font-family);
+
+}
+
+.about-section{
+    padding: 140px 20px;
+}
+
+.about-section-content{
+    margin: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.about-section-content p{
+    line-height: 2;
+    font-family: var(--default-font-family);
+    font-size: 18px;
+}
+
+
 .btn-branding {
   color: white;
   background-color: var(--branding-color);
@@ -53,6 +76,7 @@ p {
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px;
 }
 .btn-application {
   color: var(--branding-color);
@@ -61,6 +85,7 @@ p {
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
+  box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 4px;
 }
 
 .project-description {
@@ -102,7 +127,9 @@ p {
 
 }
 
-@media (max-width: 960px) {
+
+
+@media (max-width: 768px) {
   h1 {
     font-size: 48px;
   }
@@ -119,9 +146,29 @@ p {
     padding: 30px 15px;
     text-align: center;
   }
+  
+  .about-section {
+    padding: 60px 15px;
+  }
+
+  .about-section-content {
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .about-section-content p {
+    font-size: 16px;
+  }
+
+  .about-img {
+    max-width: 200px;
+  }
+}
+
   .btn-branding,
   .btn-application {
     font-size: 16px;
     padding: 12px 24px;
   }
-}
+
