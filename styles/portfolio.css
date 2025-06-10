@@ -35,7 +35,7 @@ p {
     rgb(223, 234, 247) 11.2%,
     rgb(244, 248, 252) 91.1%
   );
-  padding: 160px 20px;
+  padding: 200px 20px;
 }
 
 .hero p {
@@ -79,8 +79,6 @@ p {
   margin: 0 !important;
 }
 
-
-
 .btn-branding {
   color: white;
   background-color: var(--branding-color);
@@ -100,6 +98,13 @@ p {
   box-shadow: var(--box-shadow);
 }
 
+.my-projects{
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  padding: 40px;
+  
+}
 .project-description {
   text-align: left;
   padding: 120px 60px;
