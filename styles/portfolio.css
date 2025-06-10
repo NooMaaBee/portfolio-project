@@ -35,7 +35,7 @@ p {
     rgb(223, 234, 247) 11.2%,
     rgb(244, 248, 252) 91.1%
   );
-  padding: 200px 20px;
+  padding: 150px 20px;
 }
 
 .hero p {
@@ -97,19 +97,31 @@ p {
   line-height: 27px;
   box-shadow: var(--box-shadow);
 }
-
-.my-projects{
-  font-family: var(--heading-font-family);
-  font-size: 24px;
-  font-weight: bold;
-  padding: 40px;
-  
+.btn-branding:hover {
+    color: #ff8364;
 }
+.btn-application:hover{
+    color: #ff8364;
+}
+
+.my-projects {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+  padding: 60px;
+}
+.projects-wrap {
+  background: linear-gradient(
+    109.6deg,
+    rgb(223, 234, 247) 11.2%,
+    rgb(244, 248, 252) 91.1%
+  );
+}
+
 .project-description {
   text-align: left;
   padding: 120px 60px;
 }
-
 .overflow-hidden {
   margin-left: 30px;
   border-radius: 0.5rem;
@@ -122,7 +134,7 @@ p {
   padding-left: 20px;
 }
 
-.footer {
+footer {
   background-color: linear-gradient(
     109.6deg,
     rgb(223, 234, 247) 11.2%,
@@ -143,12 +155,12 @@ p {
   transition-property: all;
 }
 .social-links a:hover {
-  color: #272142;
+  color: #ff8364;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   h2 {
     font-size: 32px;
