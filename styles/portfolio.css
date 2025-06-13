@@ -99,19 +99,17 @@ p {
 }
 .btn-application {
   color: var(--main-color);
-  border: 1px solid var(--branding-color);
+  border: 1px solid var(--main-color);
   padding: 18px 30px;
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
   box-shadow: var(--box-shadow);
 }
-.btn-branding:hover {
+.btn-branding:hover, .btn-application:hover {
   color: var(--branding-color);
 }
-.btn-application:hover {
-  color: var(--branding-color);
-}
+
 
 .main-wrap {
   background: linear-gradient(
@@ -165,6 +163,18 @@ footer {
     rgb(244, 248, 252) 91.1%
   );
   font-family: var(--default-font-family);
+}
+
+
+.main-wrap .contact-box{
+    width: 50%;
+    margin-left: 0;
+padding: 40px 20px;
+border-radius: 1px solid var(--main-color) 8px;
+color: #fff;
+display: flex;
+justify-content: flex-start;
+align-items: center;
 }
 .social-links a {
   color:var(--main-color);
